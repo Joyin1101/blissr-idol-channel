@@ -1,0 +1,91 @@
+body {
+	margin: 0px;
+}
+
+.title {
+	width: 100%;
+	text-align: center;
+	line-height: 15px;
+	border-bottom: 5PX solid grey;
+	border-bottom-color: red;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.neirong1 {
+	text-align: center;
+	line-height: 5px;
+}
+
+.red {
+	color: red;
+}
+
+.biankuang {
+	border: 2px solid;
+	border-radius: 25px;
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: red;
+	color: white;
+}
+
+.biankuang2 {
+	border: 2px solid red;
+	border-radius: 25px;
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: white;
+	color: black;
+	line-height: 10px;
+}
+
+.biankuang3 {
+	background-color: red;
+	border: 2px solid;
+	border-radius: 5px;
+	width: 50px;
+	color: white;
+}
+
+.biankuang4 {
+	border: 2px solid;
+	border-radius: 25px;
+	width: 250px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: red;
+	color: white;
+}
+
+.biankuang5 {
+	border: 2px solid;
+	border-radius: 25px;
+	width: 150px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: red;
+	color: white;
+}
+
+.button {
+	text-align: center;
+	
+}
+
+.picture{
+ margin:0 auto;
+ width: 500px;
+}
+.zhaopian{
+	margin: 0 auto;
+	width: 700px;
+
+}
+table th{
+	width: 100%;
+}
