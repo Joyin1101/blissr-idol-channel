@@ -1,0 +1,172 @@
+body {
+	margin: 0px;
+	text-align: center;
+	background-image:url(../img/beijing.png),
+}
+
+
+.title {
+	width: 100%;
+	text-align: center;
+	line-height: 15px;
+	border-bottom: 5PX solid grey;
+	border-bottom-color: red;
+	padding: 80px 0px;
+   background-image: url(../img/head.png);
+   background-size: 100%;
+}
+.tou{
+	background-image: url(../img/head2.png);
+	background-size: 100%;
+	margin: 0 auto;
+
+	width: 100%;
+}
+.full{
+	background-image: url(../img/full.png);
+	background-size: 100%;
+	margin: 0 auto;
+
+}
+
+
+.underline {
+	text-decoration: underline;
+}
+
+.neirong1 {
+	text-align: center;
+	line-height: 5px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.red {
+	color: red;
+}
+
+.biankuang {
+	border: 2px solid;
+	border-radius: 25px;
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: red;
+	color: white;
+	padding: ;
+}
+
+.biankuang2 {
+	border: 2px solid red;
+	border-radius: 25px;
+	margin:0 auto;
+	width: 500px;
+	text-align: center;
+    background-color: white;
+	color: black;
+	line-height: 10px;
+ 
+  
+}
+
+.biankuang3 {
+	background-color: red;
+	border: 2px solid;
+	border-radius: 5px;
+	width: 50px;
+	color: white;
+}
+
+.biankuang4 {
+	border: 2px solid;
+	border-radius: 25px;
+	width: 250px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: red;
+	color: white;
+}
+
+.biankuang5 {
+	border: 2px solid;
+	border-radius: 25px;
+	width: 150px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: red;
+	color: white;
+}
+
+.anniu {
+	text-align: center;
+	margin: 30px;
+	
+}
+
+.picture{
+ margin:0 auto;
+ width: 500px;
+}
+.zhaopian{
+	margin: 0 auto;
+	width: 700px;
+
+}
+.biaoge{
+	width: 25%;
+}
+
+.main{
+	text-align: center;
+	margin: 0 auto;
+	
+}
+.kongjian{
+	margin: 50px;
+}
+.biaoti{
+
+    font-size: 300%;
+}
+.biaoti1{
+	font-size:150%;
+	margin: 10px 5px 30px;
+}
+.biaoti2{
+	font-size:200%;
+	font-weight: bold;
+}
+
+.foot{
+	background-image: url(../img/foot.png);
+	background-size: 100%;
+	margin: 0 auto;
+	padding: 5px;
+}
+.sanjiao{
+  position: absolute;
+    top: 120%;
+    left: 50%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 55px 120px 55px;
+    border-color: transparent transparent #26bdc6 transparent;
+}
+.sanjiao span{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -34px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 39px 95px 34px;
+    border-color: transparent transparent #ff0000 transparent;
+   margin-top: 16px;
+}
+
+.kongjian1{
+	height: 100px;
+}
