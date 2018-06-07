@@ -1,0 +1,223 @@
+body, * html{
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.content {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.first, .second, .third{
+  background-image: url(../img/background/body.png);
+	background-size: cover;
+}
+
+.first-content-main img {
+  padding: 5% 20% ;
+  background-image: url('../img/triangle.png');
+  background-size: cover;
+}
+
+.divider-dark-blue {
+	height: 10px;
+	background: -webkit-linear-gradient(left,#517CB4, #F0F6F9); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #517CB4, #F0F6F9); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right,#517CB4, #F0F6F9); /* Firefox 3.6 - 15 */
+  background: linear-gradient(right,#517CB4, #F0F6F9); /* 标准的语法 */
+}
+
+.divider-pink {
+	/* position: absolute; */
+	height: 10px;
+	width: 100%;
+	z-index: 100;
+	bottom: 0;
+	background: -webkit-linear-gradient(left,#FF001D, #517CB4); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #FF001D, #517CB4); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right,#FF001D, #517CB4); /* Firefox 3.6 - 15 */
+  background: linear-gradient(right,#FF001D, #517CB4); /* 标准的语法 */
+}
+
+.divider-slim-green {
+  background-color: #1FACB6;
+  height: 6px;
+  width: 30%;
+  margin-top: 16px;
+}
+
+.second-content-sub {
+  text-align: center;
+  padding: 5% 0;
+  background: -webkit-linear-gradient(left,#F0F6F9,#1FACB6, #F0F6F9); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #F0F6F9,#1FACB6, #F0F6F9); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right,#F0F6F9,#1FACB6, #F0F6F9); /* Firefox 3.6 - 15 */
+  background: linear-gradient(right,#F0F6F9,#1FACB6, #F0F6F9); /* 标准的语法 */
+}
+
+.down-triangle {
+  padding-top: 10%;
+  background-image: url('../img/triangle.png');
+  background-position-y: 100%;
+  background-position-x: 16%;
+  padding-bottom: 10%;
+}
+
+.split-line {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+}
+
+.sub-content-item {
+	font-size: 1.3rem;
+	color: white;
+	font-weight: 400;
+}
+.sub-content-desc {
+	font-size: 0.9rem;
+	color: #FF1754;
+	font-weight: 400;
+}
+
+.title-red {
+  border: white solid 2px;
+  border-radius: 10px;
+  background-color: #FF1341;
+  color: white;
+  padding: 4px 24px;
+  width: fit-content;
+  margin: 0 auto ;
+  font-size: 1.2rem;
+}
+
+.vip-content {
+  position: relative;
+  background-color: white;
+  border: 1px solid #FF1341;
+  border-radius: 14px;
+  width: fit-content;
+  padding: 4%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+.vip-title {
+  position: absolute;
+  top: -10px;
+  left: 28%;
+  font-size: 1.3rem;
+  color: #FF1341;
+  font-weight: 700;
+  /* width: 100%; */
+  margin: 0 auto;
+}
+
+.vip-title-bg {
+  position: absolute;
+  background-color: white;
+  top: -1px;
+  height: 1px;
+  width: 70%;
+  left: 25%;
+}
+.vip-title-green {
+  position: absolute;
+  background-color: #1FACB6;
+  top: -1px;
+  height: 1px;
+  width: 30px;
+  left: 86%;
+}
+
+.vip-price {
+  background-color: #FF1341;
+  color: white;
+  border-radius: 8px;
+  margin-left: 10px;
+  padding: 4px;
+}
+.vip-duration {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.vip-desc {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+
+.btn-join {
+  position: relative;
+  height: 160px;
+  width: 160px;
+  margin: 0 auto;
+  display: block;
+}
+
+.triangle-border-up{
+  position: absolute;
+  width:0;
+  height:0;
+  border-width:0 80px 160px;
+  border-style:solid;
+  border-color:transparent transparent #1FACB6;/*透明 透明  灰*/
+
+  /* position:relative; */
+}
+.triangle-border-up-red{
+  position: absolute;
+  width:0;
+  height:0;
+  
+  border-width:0 60px 130px;
+  border-style:solid;
+  border-color:transparent transparent #FF1341;/*透明 透明  灰*/
+  margin-left: 20px;
+  margin-top: 20px;
+  /* position:relative; */
+}
+.btn-join-title {
+  position: absolute;
+  margin-left: 42px;
+  margin-top: 60px;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.contact-part {
+  margin-top: 4%;
+}
+
+.about-wechat {
+  text-align: center;
+  padding-top: 10px;
+}
+.wechat-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.wechat-desc {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+.picture{
+  /* margin:0 auto; */
+  width: 500px;
+ }
+ .biaoge{
+   width: 25%;
+ }
+
+ .triangle-border-up-bottom{
+  width:0;
+  height:0;
+  border-width:0 30px 40px;
+  border-style:solid;
+  border-color:transparent transparent #FF1341;/*透明 透明  灰*/
+  margin:40px auto 0;
+  position:relative;
+}

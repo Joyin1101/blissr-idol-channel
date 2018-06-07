@@ -1,0 +1,260 @@
+body {
+	margin: 0px;
+}
+
+.divider-bold {
+	height: 10px;
+	background: -webkit-linear-gradient(left,#517CB4, #F0F6F9); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #517CB4, #F0F6F9); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right,#517CB4, #F0F6F9); /* Firefox 3.6 - 15 */
+  background: linear-gradient(right,#517CB4, #F0F6F9); /* 标准的语法 */
+}
+.divider-pink {
+	/* position: absolute; */
+	height: 10px;
+	width: 100%;
+	z-index: 100;
+	bottom: 0;
+	background: -webkit-linear-gradient(left,#FF001D, #517CB4); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #FF001D, #517CB4); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right,#FF001D, #517CB4); /* Firefox 3.6 - 15 */
+  background: linear-gradient(right,#FF001D, #517CB4); /* 标准的语法 */
+}
+.header {
+	/* position: relative; */
+	height: 400px;
+}
+
+.header-title {
+	/* position: absolute; */
+	width: 100%;
+	text-align: center;
+	padding: 80px 0px;
+	background-image: url(../img/background/body.png);
+	background-size: cover;
+	
+}
+.header-content {
+	/* position: absolute; */
+	top: 20%;
+	width: 100%;
+	z-index: 100;
+}
+.op-triangle {
+	/* position: absolute; */
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+	/* height: 100%; */
+	/* width: 100%; */
+	/* background-image: url('../img/triangle.png'); */
+}
+
+
+.subtitle-content {
+	position: absolute;
+	height: 300px;
+	width: 100%;
+	z-index: 10;
+	/* background: #1FACB6; */
+	/* background-image: url(../img/background/body.png); */
+}
+
+.sub-content-left {
+	height: 300px;
+	width: 50%;
+	display: inline-block;
+	background: -webkit-linear-gradient(left,#ffffff, #1FACB6); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(right, #ffffff, #1FACB6); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(right,#ffffff, #1FACB6); /* Firefox 3.6 - 15 */
+  background: linear-gradient(right,#ffffff, #1FACB6); /* 标准的语法 */
+}
+.sub-content-right {
+	height: 300px;
+	width: 50%;
+	float: right;
+	/* opacity: 0.8; */
+	background: -webkit-linear-gradient(left, #1FACB6 ,#ffffff); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, , #1FACB6 #ffffff); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #1FACB6 ,#ffffff); /* Firefox 3.6 - 15 */
+	background: linear-gradient(right, #1FACB6 ,#ffffff); /* 标准的语法 */
+
+}
+
+.sub-content {
+	position: absolute;
+	top: 10%;
+	width: 100%;
+	text-align: center;
+}
+
+.sub-content-item {
+	font-size: 1.4rem;
+	color: white;
+	font-weight: 400;
+}
+.sub-content-desc {
+	font-size: 1rem;
+	color: #FF1754;
+	font-weight: 300;
+}
+
+
+
+
+
+
+.tou{
+	background-image: url(../img/head2.png);
+	background-size: 100%;
+	margin: 0 auto;
+
+	width: 100%;
+}
+.full{
+	background-image: url(../img/full.png);
+	background-size: 100%;
+	margin: 0 auto;
+
+}
+
+
+.underline {
+	text-decoration: underline;
+}
+
+.neirong1 {
+	text-align: center;
+	line-height: 5px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.red {
+	color: red;
+}
+
+.biankuang {
+	border: 2px solid;
+	border-radius: 25px;
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: red;
+	color: white;
+}
+
+.biankuang2 {
+	border: 2px solid red;
+	border-radius: 25px;
+	margin:0 auto;
+	width: 500px;
+	text-align: center;
+    background-color: white;
+	color: black;
+	line-height: 10px;
+ 
+  
+}
+
+.biankuang3 {
+	background-color: red;
+	border: 2px solid;
+	border-radius: 5px;
+	width: 50px;
+	color: white;
+}
+
+.biankuang4 {
+	border: 2px solid;
+	border-radius: 25px;
+	width: 250px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: red;
+	color: white;
+}
+
+.biankuang5 {
+	border: 2px solid;
+	border-radius: 25px;
+	width: 150px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: red;
+	color: white;
+}
+
+.anniu {
+	text-align: center;
+	margin: 30px;
+	
+}
+
+.picture{
+ margin:0 auto;
+ width: 500px;
+}
+.zhaopian{
+	margin: 0 auto;
+	width: 700px;
+
+}
+.biaoge{
+	width: 25%;
+}
+
+.main{
+	text-align: center;
+	margin: 0 auto;
+	
+}
+.kongjian{
+	margin: 50px;
+}
+.biaoti{
+
+    font-size: 300%;
+}
+.biaoti1{
+	font-size:150%;
+	margin: 10px 5px 30px;
+}
+.biaoti2{
+	font-size:200%;
+	font-weight: bold;
+}
+
+.foot{
+	background-image: url(../img/foot.png);
+	background-size: 100%;
+	margin: 0 auto;
+	padding: 5px;
+}
+.sanjiao{
+  position: absolute;
+    top: 120%;
+    left: 50%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 55px 120px 55px;
+    border-color: transparent transparent #26bdc6 transparent;
+}
+.sanjiao span{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -34px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 39px 95px 34px;
+    border-color: transparent transparent #ff0000 transparent;
+   margin-top: 16px;
+}
+
+.kongjian1{
+	height: 100px;
+}
